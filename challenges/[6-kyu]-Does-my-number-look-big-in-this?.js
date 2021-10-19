@@ -47,5 +47,5 @@ function narcissistic(value) {
   return false;
 }
 
-console.log(narcissistic(1634));
+console.log(narcissistic(43245));
   

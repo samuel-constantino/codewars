@@ -18,8 +18,14 @@ function solution(number){
   let result = 0;
   
   numbers.forEach((n) => {
-    if (n % 3 === 0 || n % 5 === 0) result += n;
+    if (n % 3 === 0 || n % 5 === 0) {
+      console.log(n);
+      result += n
+
+      };
   });
 
   return result;
 }
+
+console.log(solution(1));
